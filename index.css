@@ -1,0 +1,186 @@
+body {
+   background-color: #FFFFFF;
+   color: #000000;
+   font-family: Arial;
+   font-size: 13px;
+   font-weight: normal;
+   line-height: 1.1875;
+   margin: 0;
+   padding: 0;
+}
+#ListView1 {
+   border-width: 0;
+   display: flex;
+   flex-wrap: wrap;
+   font-family: Arial;
+   font-size: 0;
+   font-style: normal;
+   font-weight: normal;
+   width: 100%;
+}
+#ListView1 .ui-btn {
+   cursor: pointer;
+   display: block;
+   margin: .5em 0;
+   overflow: hidden;
+   padding: 12px 18px 12px 18px;
+   position: relative;
+   text-align: center;
+   text-decoration: none;
+   text-overflow: ellipsis;
+}
+#ListView1 .ui-btn {
+   border-style: solid;
+   border-width: 1px;
+}
+#ListView1,
+#ListView1 > li {
+   font-size: 13px;
+   list-style: none;
+   margin: 0;
+   padding: 0;
+}
+#ListView1 > li {
+   box-sizing: border-box;
+   display: block;
+   overflow: visible;
+   position: relative;
+}
+#ListView1 > .ui-li-static,
+#ListView1 > .ui-li-divider,
+#ListView1 > li > a.ui-btn {
+   display: block;
+   overflow: hidden;
+   position: relative;
+   text-align: left;
+   text-overflow: ellipsis;
+}
+#ListView1 > .ui-li-static,
+#ListView1 > .ui-li-divider,
+#ListView1 > li > a.ui-btn {
+   border-style: solid;
+   border-width: 1px 1px 0 1px;
+   flex: 1 0 100%;
+   font-weight: normal;
+   margin: 0;
+   text-align: left;
+}
+#ListView1 > li {
+   flex: 1 0 100%;
+   margin: 0;
+}
+#ListView1 .ui-state-default {
+   background-color: #F6F6F6;
+   background-image: none;
+   border-color: #C5C5C5;
+   color: #454545  !important;
+}
+#ListView1 .ui-state-hover,
+#ListView1 .ui-btn:hover {
+   background-color: #EDEDED;
+   background-image: none;
+   border-color: #CCCCCC;
+   color: #2B2B2B  !important;
+}
+#ListView1 .ui-state-active {
+   background-color: #3370B7;
+   background-image: none;
+   border-color: #2E6DA4;
+   color: #FFFFFF  !important;
+}
+#ListView1 > .ui-li-divider {
+   background-color: #E9E9E9;
+   background-image: none;
+   border-color: #DDDDDD;
+   color: #333333;
+   cursor: default;
+   outline: 0;
+   padding: 10px 18px 10px 18px;
+}
+#ListView1 > .ui-li-static {
+   background-color: #FFFFFF;
+   background-image: none;
+   border-color: #DDDDDD;
+   padding: 12px 18px 12px 18px;
+}
+#ListView1 > li.ui-first-child,
+#ListView1 > li.ui-first-child > a.ui-btn {
+   border-top-left-radius: 4px;
+   border-top-right-radius: 4px;
+}
+#ListView1 > li.ui-last-child,
+#ListView1 > li.ui-last-child > a.ui-btn {
+   border-bottom-left-radius: 4px;
+   border-bottom-right-radius: 4px;
+}
+#ListView1 > .ui-li-has-icon > .ui-btn,
+#ListView1 > .ui-li-static.ui-li-has-icon {
+   min-height: 0px;
+   padding-left: 36px;
+}
+#ListView1 > .ui-li-divider.ui-li-has-icon {
+   min-height: 0px;
+   padding-left: 36px;
+}
+#ListView1 > .ui-li-has-icon.ui-last-child > .ui-btn,
+#ListView1 > .ui-li-static.ui-li-has-icon.ui-last-child {
+   min-height: 0px;
+}
+#ListView1 > .ui-li-divider.ui-li-has-icon.ui-last-child {
+   min-height: 0px;
+}
+#ListView1 > .ui-li-static.ui-last-child,
+#ListView1 > .ui-li-divider.ui-last-child,
+#ListView1 > li.ui-last-child > a.ui-btn {
+   border-bottom-width: 1px;
+}
+#ListView1 > .ui-li-has-icon > img:first-child,
+#ListView1 > .ui-li-has-icon > .ui-btn > img:first-child {
+   border-width: 0;
+   left: 18px;
+   margin-bottom: 0;
+   max-height: 0px;
+   max-width: 0px;
+   position: absolute;
+   top: 12px;
+}
+#ListView1-filter-input {
+   border: 1px solid #DDDDDD;
+   border-radius: 4px;
+   box-sizing: border-box;
+   color: #454545;
+   font-family: Arial;
+   font-size: 13px;
+   font-style: normal;
+   font-weight: normal;
+   margin-bottom: 6px;
+   padding: 6px 18px 6px 18px;
+   width: 100%;
+}
+#ListView1 .ui-screen-hidden {
+   display: none  !important;
+}
+#ListView1 p {
+   font-size: 11px;
+   font-weight: normal;
+   margin: 0;
+   padding: 8px 0 0 0;
+}
+#wb_ListView1 {
+   margin: 0;
+}
+#ListView1 .badge {
+   background-color: #007BFF;
+   border-radius: .25rem;
+   color: #FFFFFF;
+   display: inline-block;
+   float: right;
+   font-size: 75%;
+   font-weight: 700;
+   line-height: 1;
+   padding: .25em .4em;
+   text-align: center;
+   transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+   vertical-align: baseline;
+   white-space: nowrap;
+}

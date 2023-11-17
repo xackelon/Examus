@@ -1,0 +1,32 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Examus</title>
+<meta name="generator" content="Xackelon">
+<link href="style.css" rel="stylesheet">
+<link href="index.css" rel="stylesheet">
+<script src="jquery-3.7.1.min.js"></script>
+<script src="jquery-ui.min.js"></script>
+<script src="wb.filterable.min.js"></script>
+<link rel="shortcut icon" href="icon.png" type="image/x-icon">
+<script>   
+   $(document).ready(function()
+   {
+      $("#ListView1").filterable({input:'#ListView1-filter-input'});
+   });
+</script>
+</head>
+<body>
+   <div id="wb_ListView1" style="position:absolute;left:22px;top:18px;width:1149px;height:812px;z-index:0;">
+      <form><input type="text" data-type="search" id="ListView1-filter-input" placeholder="Поиск"></form>
+      <ul id="ListView1">
+         <li class="ui-li-static ui-widget-content ui-first-child">Item 1</li>
+         <li class="ui-li-static ui-widget-content">Item 2<p>description</p></li>
+         <li class="ui-li-static ui-widget-content">Item 3</li>
+         <li class="ui-li-divider ui-widget-header" role="heading">Divider</li>
+         <li class="ui-li-static ui-widget-content ui-last-child">Item 4</li>
+      </ul>
+   </div>
+</body>
+</html>
